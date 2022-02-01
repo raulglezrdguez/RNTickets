@@ -168,7 +168,7 @@ const Overview = props => {
                   mode="contained"
                   uppercase={false}
                   onPress={() => {
-                    props.route.navigation.navigate('GetDirections', {
+                    props.navigation.navigate('GetDirections', {
                       back: 'WorkTicket',
                       ticket: props.route.ticket,
                     });
